@@ -1,13 +1,13 @@
-# vil_images_generation
+# radar_images_generation
 ## Project description
 
-The goal of project is to generate the missing “vil” images based on a sequence of “vis”, “ir069”, and “ir107” images from a single storm.
 
+The goal of this project is to generate the missing “vil” images based on a sequence of “vis”, “ir069”, and “ir107” images from a single storm.
 ![task](images/task.jpg)
 
-
 ## Dataset
-This project have access to a generative model that has been trained to produce realistic-looking MRI images of patient's heads. So I used the provided image-generation network to create a dataset of brain images as the training dataset which is called 'train_data_3000.pt'. This training dataset includes 3000 samples.
+There are 4 types of satellite images: visible, water vapour (infrared), cloud/surface temperature (infrared), vertically integrated liquid (radar). The whole dataset includes 800 example storms over the entire US.
+
 
 ## Network construction
 Unet combined with multi-head self-attention mechanism
