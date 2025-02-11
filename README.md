@@ -3,7 +3,7 @@
 
 The goal of project is to generate the missing “vil” images based on a sequence of “vis”, “ir069”, and “ir107” images from a single storm.
 
-<img src="images/task.jpg" alt="goal" width="250" height="100">
+![task](images/task.jpg)
 
 
 ## Dataset
