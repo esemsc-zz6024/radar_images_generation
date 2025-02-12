@@ -1,13 +1,13 @@
 # radar(vil)_images_generation
 ## Project description
 
-The goal of this project is to generate the missing “vil” images based on a sequence of “vis”, “ir069”, and “ir107” images from a single storm.
 ![task](images/task.jpg)
+The goal of this project is to generate the missing “vil” images based on a sequence of “vis”, “ir069”, and “ir107” images from a single storm.
 
 ## Dataset
-Each storm has 36 sets of images which are divided based on time order(5 mins). For a set of images, there are 4 types of satellite images: visible, water vapour (infrared), cloud/surface temperature (infrared) and vertically integrated liquid (radar). The whole dataset includes 800 example storms over the entire US.
-![task](images/dataset.jpg)
 
+![task](images/dataset.jpg)
+Each storm has 36 sets of images which are divided based on time order(5 mins). For a set of images, there are 4 types of satellite images: visible, water vapour (infrared), cloud/surface temperature (infrared) and vertically integrated liquid (radar). The whole dataset includes 800 example storms over the entire US.
 
 ## Network construction
 4 Layers U-Net with SE and CBAM attention mechanism
