@@ -1,4 +1,4 @@
-# radar_images_generation
+# radar(vil)_images_generation
 ## Project description
 
 The goal of this project is to generate the missing “vil” images based on a sequence of “vis”, “ir069”, and “ir107” images from a single storm.
